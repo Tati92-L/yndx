@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #37373F;
+    background: #eaeaea;
+}
+
+input, button, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #c5c5c5;
+}
+
+.shelf-products{
+    width: 300px;
+    height: 600px;
+    padding: 28px 44px 140px;
+    position: relative;
+    text-align: center;
+}
+
+.main-bckgrnd{
+    background: url(./img/shelf.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.wine{
+    width:2.3rem;
+    height:7.8rem;
+    position: absolute;
+    left: 22px;
+    top: -3px;
+    cursor: pointer;
+}
+
+.milk{
+    width:2.3rem;
+    height: 5.7rem;
+    position: absolute;
+    left:64px;
+    top:31px;
+    cursor: pointer;
+}
+
+.marmelade{
+    width:2.9rem;
+    height:2.6rem;
+    position: absolute;
+    left:103px;
+    top:80px;
+    cursor: pointer;
+}
+
+.cheese{
+    width: 2.25rem;
+    height: 2.1rem;
+    position: absolute;
+    left:158px;
+    top:89px;
+    cursor: pointer;
+}
+
+.ham{
+    width:3.1rem;
+    height:3rem;
+    position: absolute;
+    left:7px;
+    top:167px;
+    cursor: pointer;
+}
+
+.chicken{
+    width:3.4rem;
+    height:3.1rem;
+    position: absolute;
+    left:58px;
+    top:177px;
+    cursor: pointer;
+}
+
+.chips{
+    width:4.8rem;
+    height:2.9rem;
+    position: absolute;
+    left:129px;
+    top:176px;
+    cursor: pointer;
+}
+
+.pineapple{
+    width:2.2rem;
+    height:4.6rem;
+    position: absolute;
+    left:13px;
+    top:237px;
+    cursor: pointer;
+}
+
+.banana{
+    width:2.9rem;
+    height:2.9rem;
+    position: absolute;
+    left:58px;
+    top:265px;
+    cursor: pointer;
+}
+
+.apple{
+    width:1.9rem;
+    height:2.3rem;
+    position: absolute;
+    left:115px;
+    top:276px;
+    cursor: pointer;
+}
+
+.salat{
+    width:3.9rem;
+    height:3.2rem;
+    position: absolute;
+    left:156px;
+    top:267px;
+    cursor: pointer;
+}
+
+.basket{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.dropzone {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.wine.in-basket{
+    width:3.4rem;
+    height:8.3rem;
+    top: 65px;
+    left: 130px;
+}
+
+.milk.in-basket{
+    width:3.4rem;
+    height:11.7rem;
+    top: 40px;
+    left: 80px;
+}
+
+.marmelade.in-basket{
+    width:4.4rem;
+    height:3.9rem;
+    left:100px;
+    top:130px;
+}
+
+.cheese.in-basket{
+    width: 3.4rem;
+    height: 3.2rem;
+    left: 170px;
+    top: 150px;
+}
+
+.ham.in-basket{
+    width:4.7rem;
+    height:4.5rem;
+    left:190px;
+    top:130px;
+}
+
+
+.chicken.in-basket{
+    width:5rem;
+    height:4.6rem;
+    left:180px;
+    top:140px;
+}
+
+.chips.in-basket{
+    width:7rem;
+    height:4.3rem;
+    left:80px;
+    top:130px;
+}
+
+.pineapple.in-basket{
+    width:3.3rem;
+    height:6.9rem;
+    left:210px;
+    top:90px;
+}
+
+.banana.in-basket{
+    width:4.4rem;
+    height:4.4rem;
+    left:140px;
+    top:120px;
+}
+
+.apple.in-basket{
+    width:2.9rem;
+    height:3.5rem;
+    left: 230px;
+    top: 140px;
+}
+
+.salat.in-basket{
+    width:5.9rem;
+    height:4.8rem;
+    left:155px;
+    top:120px;
+} 
+
+.hidden {
+    display: none;
+}
+
+.button_pay{
+    display: none;
+    text-decoration: none;
+    color:#000;
+    padding: 1.3rem 1.1rem;
+    background-color: rgba(252, 224, 0, 1);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 4rem auto 1.3rem;
+    position: relative;
+    z-index: 6;
+}
